@@ -13,13 +13,13 @@ from .translation import Translation
 # Created https://github.com/MRK-YT 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL")
 
-MT_CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
+CHANNEL_USERNAME = os.environ.get("JOIN_MAIN_CHANNEL")
 
 MASSAGE_PHOTO = os.environ.get("TEXT_MEG_PH")
 
-MRK_YT_MASTER = os.environ.get("BOT_MASTER")
+MASTER = os.environ.get("BOT_MASTER")
 
-MT_GROUP = os.environ.get("G_ID_START")
+GROUP = os.environ.get("G_ID_START")
 
 MT_CHANNEL = os.environ.get("C_ID_START")
 
