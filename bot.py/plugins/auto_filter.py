@@ -8,7 +8,7 @@ from pyrogram.errors import ButtonDataInvalid, FloodWait
 
 from bot.database import Database # pylint: disable=import-error
 from bot.bot import Bot # pylint: disable=import-error
-from bot import MT_CHANNEL_USERNAME, MASSAGE_PHOTO
+from bot import CHANNEL_USERNAME, MASSAGE_PHOTO
 
 FIND = {}
 INVITE_LINK = {}
@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url=f"https://t.me/{MT_CHANNEL_USERNAME}")
+                    InlineKeyboardButton("💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url=f"https://t.me/{USERNAME}")
                 ]
             )
         for filter in filters: # iterating through each files
