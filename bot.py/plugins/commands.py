@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & @Mrk_YT
+# (c) @AlbertEinsteinTG
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -11,7 +11,7 @@ from bot import UPDATE_CHANNEL # Update Text Message Channel Update
 from bot import MASTER
 from bot import GROUP
 from bot import CHANNEL # Main Channel Added
-from bot.motech import MT_BOT_UPDATES
+from bot.motech import BOT_UPDATES
 
 db = Database()
 
