@@ -1,5 +1,5 @@
 # Update
-MT_BOT_UPDATES = "t.me/Mo_tech_YT"
+BOT_UPDATES = "t.me/unlimtedmovie00"
 # Your Main Channel
-BOT_UPDATES = "t.me/Mo_Tech_YT"
+BOT_GROUP = "t.me/filmgallery0999"
 
