@@ -11,7 +11,7 @@ from bot import UPDATE_CHANNEL # Update Text Message Channel Update
 from bot import MASTER
 from bot import GROUP
 from bot import CHANNEL # Main Channel Added
-from bot.motech import BOT_UPDATES
+from bot.harley import BOT_UPDATES
 
 db = Database()
 
